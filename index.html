@@ -190,35 +190,42 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="Jan 2021 – Present">
-                <h3>MediaTek Inc.</h3>
-                <h4>AI Computer Architecture Research Intern</h4>
+            <div data-date="Jun 2021 – Aug 2021">
+                <h3>University of Pittsburgh, PA.</h3>
+                <h4>Pre-Doctoral Fellow</h4>
                 <p style="text-align:justify;">
-                    Worked on architectural simulator and ISA finetuning for in-house AI accelerator within production mobile SoCs. Developed efficient microarchitecture designs for components within next-generation AI accelerator targeting future mobile SoCs. Implemented the designs in Verilog RTL, performed functional verification and further assisted with UVM verification.
+                    Build Spiking Neural Networks and neuron models (LIF, Izikevich, NeuroDyn) to simulate Neuromodulation. Perform Neuronal Network experiments on Opal Kelly FPGA through Xilinx Vivado.
+                </p>
+            </div>
+            <div data-date="Jan 2020 – May 2021">
+                <h3>Deloitte Corporation, Denver, Colorado.</h3>
+                <h4>Software Engineer</h4>
+                <p style="text-align:justify;">
+                    Provide technical expertise and develop software frameworks and interfaces on AWS, Salesforce, etc. analyzing the system workflow, data usage  etc. in the multi pipeline environment
                 </p>
             </div>
 
-            <div data-date="May 2020 – Aug 2020">
-                <h3>MediaTek Inc.</h3>
-                <h4>AI Computer Architecture Research Intern</h4>
+            <div data-date="May 2019 – Nov 2019">
+                <h3>Samsung Research America, Mountain View, CA.</h3>
+                <h4>ASR/NLP/Macchine Learning Research Intern, BIXBY</h4>
                 <p style="text-align:justify;">
-                    Explored the usability and robustness of in-house AI software ecosystem, NeuroPilot, and contributed to its documentation. Further developed AI applications using NeuroPilot for edge inferencing on Dimensity SoC.
+                    Build NLP applications using Language Models and Machine Learning techniques to process speech-to-text algorithms eventually optimizing BIXBY - Samsung's voice recognition system.
                 </p>
             </div>
 
-            <div data-date="May 2016 – Aug 2016">
-                <h3>Purdue University</h3>
-                <h4>Visiting Research Scholar</h4>
+            <div data-date="Mar 2019 – May 2019">
+                <h3>Omni Labs</h3>
+                <h4>Machine Learning Engineer</h4>
                 <p style="text-align:justify;">
-                    Modeled a multi-layered IC stack in Ansys HFSS and determined the IC stack layers responsible for significant EM signal leakage. Further simulated a theoretical EM Side Channel Analysis using MATLAB and successfully extracted the correct key byte using correlation analysis.
+                    Build an end-to-end pipeline from the scratch to automate or recreate specific application processes using  Machine Learning, Reinforcement Learning, Computer Vision algorithms, etc.
                 </p>
             </div>
 
-            <div data-date="Nov 2015 – Dec 2015">
-                <h3>USHVA Clean Technology Pvt. Ltd.</h3>
-                <h4>Embedded System Intern</h4>
+            <div data-date="May 2018 – Aug 2018">
+                <h3>FireEye, Milpitas, CA.</h3>
+                <h4>Research Engineering Intern</h4>
                 <p style="text-align:justify;">
-                  Part of the team building a Smart Home Solar Power System with wireless load control and data monitoring. Created a Wireless Central hub and 6 Mini hubs using PIC MCUs, and RF/Wi-Fi Modules (an IoT system). Managed transmission of control signals from server to appliances and power dissipation data back to server.
+                  Develop an Anomaly Detection algorithm to identify unauthorized usage of Helix machines. Build interfaces for Database validation and migration to PG-SQL.
                 </p>
             </div>
         </div>
@@ -235,11 +242,11 @@
                     </div>-->
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Facial Emotion Recognition using Efficient Deep Neural Networks</h3>
+                        <h3>Event-based TNNs for gesture recognition, Neuromorphic Computer Architecture</h3>
                         <p style="text-align:justify;">
-                            Collaborated with three other graduate students to develop a CNN-based solution for Facial Emotion Recognition (FER) problem, with the goal of efficient edge inferencing. The idea was to take a small baseline CNN and inject it with an appropriate attention mechanism to focus on relevant facial features. The proposed solution achieved 83% and 63.5% accuracies on CK+ and FER2013 (among top 10 in ICML 2013 FER Challenge) datasets respectively, while being 8x faster and 3x more power-efficient compared to state-of-the-art VGG-19, on Snapdragon 855 mobile platform.
+                            Devised multiple encoding schemes to feed the event-based DVS data into the custom TNN architecture. Implemented spike-time encoding algorithm using multiple bit levels of quantization on NMNIST dataset. Built an adapted 2D point cloud encoding of events to create patterns on the spatial and temporal waveform of events.
                         </p>
-                        <a href="https://github.com/SiddharthMehtaRajendra/pythons">View Project</a>
+                        <!-- <a href="https://github.com/SiddharthMehtaRajendra/pythons">View Project</a> -->
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -251,11 +258,12 @@
                     </div>-->
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Hardware Aware Neural Network Architectures Using FBNets</h3>
+                        <h3>Delta RNN – GRU on a Silicon Cochlea – Spoken Digit Recognition</h3>
                         <p style="text-align:justify;">
-                            The goal was to propose a differentiable Neural Architecture Search (NAS) approach inspired from FBNets, to generate effective neural network (NN) architectures that are heavily optimized for a given target device. The key idea was to extend the loss function to include an energy constraint along with the typical loss function and a latency constraint as used by FBNets. After extensive experimentation and loss function tuning via PyTorch, the new loss function was successfully able to generate NN architectures that were optimal in terms of accuracy, latency and energy consumption, for Raspberry Pi (used as an example target device). The trained child architectures were able to provide upto 2.5x speedup and 3.8x reduction in energy with tolerable accuracy loss (4-5%). This work (with equal contribution from all three authors) is available for perusal on <a href="https://arxiv.org/pdf/1906.07214.pdf">arXiv</a>.
+                            Built a custom Delta GRU from scratch to increase sparsity in matrix vector multiplication components of the weight matrices. Implemented Delta GRU on the silicon cochlea – an eight-channel filtered output of a spoken digit audio wave. Implemented 2 x 2 Spiking Neural Network on Cadence using Muller-C element and 2-input arbiter. 
+                            <!-- <a href="https://arxiv.org/pdf/1906.07214.pdf">arXiv</a>. -->
                         </p>
-                        <a href="https://github.com/hpnair/18663_Project_FBNet">View Project</a>
+                        <!-- <a href="https://github.com/hpnair/18663_Project_FBNet">View Project</a> -->
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -267,11 +275,11 @@
                     </div>-->
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>A Hybrid Energy-Efficient Microarchitecture with Dynamic Renaming Optimizations</h3>
+                        <h3>Real-time Lane Identification System with GANs</h3>
                         <p style="text-align:justify;">
-                            The goal was to design a hybrid microarchitecture with similar energy efficiency as inorder (InO) processors while providing close to out-of-order (OoO) performance. The proposed architecture used only InO structures without any expensive dynamic scheduling hardware. It consisted of a free-flow front-end consisting of functional units, and in-order queues at the back-end for exposing Memory Level Parallelism. It also implements certain dynamic optimizations at the renaming stage of the pipeline, namely, Move Elimination, Memory Bypassing and Constant Folding. These three optimizations collapse the corresponding instruction dependencies, reducing the total cycle count for execution. This hybrid architecture on simulation in Snipersim was able to display very high energy-efficiency (150% improvement over OoO and 80% over InO), while maintaining performance decently close to the OoO processor (lags by only 3.5%).
+                            Built a 2-layer unidirectional CNN-LSTM architecture in PyTorch to localize a car to its lane, on time-series accelerometer data. Employed data augmentation, GAN on 1D sequence data to generate acc(Z) readings for different road conditions/ car types.
                         </p>
-                        <a href="https://ieeexplore.ieee.org/abstract/document/8988675">View Publication</a>
+                        <!-- <a href="https://ieeexplore.ieee.org/abstract/document/8988675">View Publication</a> -->
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -283,9 +291,9 @@
                     </div>-->
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Hardware Acceleration of Advanced Encryption Standard (AES)</h3>
+                        <h3>Drive Smart - Low Power Driver Distraction Identification and Alert System</h3>
                         <p style="text-align:justify;">
-                            Implemented an AES decryption engine on Xilinx Zynq-7000 FPGA using VHDL, which takes an encrypted image and displays the decrypted one on an LCD monitor. It consisted of two custom coprocessors, one for executing the AES decryption algorithm and another for implementing a TFT controller peripheral to display graphics on the LCD, with AXI-Stream (AXIS) communication between Processing System (PS) and Programmable Logic (PL). The AES decryption algorithm was also executed in C to validate the algorithm implementation and successfully displayed the decrypted image on the monitor.
+                            Built a low power system using Raspberry Pi to monitor driver’s attention in a car and send inattention alerts via piezo buzzer. Selectively enabled the system via interrupts & polling to minimize power, using proximity sensor to detect driver’s presence. Implemented face detection, feature extraction (eyelids, nose length, jaw distance) w/ OpenCV Haar Cascade Classifier & dlib.
                         </p>
                     </div>
                     <!-- End .project-info -->
@@ -298,9 +306,25 @@
                     </div>-->
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Cycle-Level Modeling of a Front-end Execution Architecture</h3>
+                        <h3>Neural Predictions on Human Activity Recognition</h3>
                         <p style="text-align:justify;">
-                            Developed hardware description model for a processor consisting of a free-flowing in-order front-end coupled with a shrunken OoO backend, using Verilog for a simplified 16-bit RISC instruction set with 15 instructions. Tomasulo dynamic scheduling along with register renaming and a hybrid Reservation Station structure/Re-Order Buffer were implemented. Performed cycle-level simulations in Altera Quartus Prime to validate the model.
+                            Implemented sequence classification by segmenting sensor signals, applying multi-head & self-attention - tensor2tensor. Performed activity recognition - employing backpropagation on LSTM w/ encoder of transformer model, calculated F1 score.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large no-image">
+                    <!--<div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>-->
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Optimal Level-Crossing Prediction for Electronic Prognosis</h3>
+                        <p style="text-align:justify;">
+                            Evaluated optimality of failure prediction methods on battery data - RMSE on Gaussian Process Regression & Random Forest. Applied state space approach for feature design and Kalman filtering via MATLAB to enhance linearity in the capacitance data.
+
                         </p>
                     </div>
                     <!-- End .project-info -->
@@ -309,86 +333,86 @@
 
                 <!-- Projects Above -->
 
-                <a id="view-more-projects" href="#">View More Projects</a>
+                <!-- <a id="view-more-projects" href="#">View More Projects</a>
                 <div id="more-projects" class="row">
-                <div class="project shadow-large no-image">
+                <div class="project shadow-large no-image"> -->
                     <!--<div class="project-image">
                         <img src="images/project.jpg" />
                     </div>-->
                     <!-- End .project-image -->
-                    <div class="project-info">
+                    <!-- <div class="project-info">
                         <h3>Computer Systems</h3>
                         <p style="text-align:justify;">
                             As part of the Computer Systems course, I developed a dynamic memory allocator for C programs and optimized it for space utilization, improving its throughput by almost 1.5x. I also designed an interactive command-line interpreter using appropriate signal handlers for running user programs, and a multi-cache simulator in C with MSI cache coherence protocol.
                         </p>
-                    </div>
+                    </div> -->
                     <!-- End .project-info -->
-                </div>
+                <!-- </div> -->
                 <!-- End .project -->
 
-                <div class="project shadow-large no-image">
+                <!-- <div class="project shadow-large no-image"> -->
                     <!--<div class="project-image">
                         <img src="images/project.jpg" />
                     </div>-->
                     <!-- End .project-image -->
-                    <div class="project-info">
+                    <!-- <div class="project-info">
                         <h3>Microarchitecture HDL Implementation</h3>
                         <p style="text-align:justify;">
                             Designed non-pipelined as well as pipelined versions of a multi-cycle 16-bit RISC processor consisting of 15 instructions in Verilog HDL and simulated it in Modelsim-Altera Simulator. The designs were demonstrated successfully by implementing on a DE0-Nano Development Board. As part of another project, I also designed the data path and controller of a CISC microcode based processor consisting of 19 instructions.
                         </p>
-                    </div>
+                    </div> -->
                     <!-- End .project-info -->
-                </div>
+                <!-- </div> -->
                 <!-- End .project -->
 
-                <div class="project shadow-large no-image">
+                <!-- <div class="project shadow-large no-image"> -->
                     <!--<div class="project-image">
                         <img src="images/project.jpg" />
                     </div>-->
                     <!-- End .project-image -->
-                    <div class="project-info">
+                    <!-- <div class="project-info">
                         <h3>Voltage-Actuated MEMS Sensor</h3>
                         <p style="text-align:justify;">
                             The goal was to design a suspended beam MEMS metal switch with better sensitivity than conventional sensors. The proposed structure basically consisted of a metal beam with an insulator and air gap beneath it. When voltage across the beam and the ground electrode is varied, the beam deflects and ultimately collapses after pull-in voltage. Its sensitivity was optimised using appropriate dimensions and materials through extensive C-V experimentations using MEMS+ software, to achieve a subthreshold swing below 60 mV/decade.
                         </p>
-                    </div>
+                    </div> -->
                     <!-- End .project-info -->
-                </div>
+                <!-- </div> -->
                 <!-- End .project -->
 
-                <div class="project shadow-large no-image">
+                <!-- <div class="project shadow-large no-image"> -->
                     <!--<div class="project-image">
                         <img src="images/project.jpg" />
                     </div>-->
                     <!-- End .project-image -->
-                    <div class="project-info">
+                    <!-- <div class="project-info">
                         <h3>GSM-based AC Remote Control</h3>
                         <p style="text-align:justify;">
                             Devised a system using Pt-51 (8052 architecture) Board, a GSM Modem (SIM800C) and an IR LED to control the temperature of an AC using GSM-based text messages. AT commands were sent via UART interface to initialize the GSM Module as well as to retrieve temperature information from the text message received by it. This temperature information was transmitted to the AC via the IR LED with the help of NEC Protocol. Decoding of AT commands and NEC encoding of temperature information were performed by the 8052 microcontroller.
                         </p>
-                    </div>
+                    </div> -->
                     <!-- End .project-info -->
-                </div>
+                <!-- </div> -->
                 <!-- End .project -->
 
-                <div class="project shadow-large no-image">
+                <!-- <div class="project shadow-large no-image"> -->
                     <!--<div class="project-image">
                         <img src="images/project.jpg" />
                     </div>-->
                     <!-- End .project-image -->
-                    <div class="project-info">
+                    <!-- <div class="project-info">
                         <h3>Ultrasonic Local Positioning System</h3>
                         <p style="text-align:justify;">
                           Designed a prototype of Local Positioning System (LPS) using three ultrasound transmitters, a receiver, two Pt-51 Boards and two Xbee Modules, which could display the position of the receiver on an LCD. Used the Xbee Modules to enable synchronized sequential sending of Ultrasonic pulses from the transmitters. Implemented Trilateration Method at the receiver side to calculate the receiver’s position.
                         </p>
-                    </div>
+                    </div> -->
                     <!-- End .project-info -->
-                </div>
+                <!-- </div> -->
                 <!-- End .project -->
-                </div>
+                <!-- </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End #projects -->
 
     <div id="teach" class="optional-section background-alt">
@@ -489,34 +513,14 @@
     <div class="optional-section-block">
         <ul>
             <li>
-                Prabhu Vellaisamy, <u>Harideep Nair</u>, Joseph Finn, Albert Chen, Manav Trivedi, Anna Li, Shawn Blanton and John Paul Shen. "tubGEMM: Sparsity-Effective and Energy-Efficient Matrix Multiply Units for Low-Precision Deep-Learning Compute". <i>Submitted to MLSys 2023</i>.
-            </li>
-            <li>
-                <u>Harideep Nair</u>, Prabhu Vellaisamy, Albert Chen, Joseph Finn, Anna Li, Manav Trivedi and John Paul Shen. "tuGEMM: Area-Power-Efficient Temporal Unary GEMM Architecture for Low Resolution Edge AI". <i>Submitted to ISCAS 2022</i>.
-            </li>
-            <li>
-                <u>Harideep Nair</u>, Prabhu Vellaisamy, Santha Bhasuthkar and John Paul Shen. <a href="https://arxiv.org/pdf/2205.07410.pdf">"TNN7: A Custom Macro Suite for Implementing Highly Optimized Designs of Neuromorphic TNNs"</a>. <i>Accepted to 2022 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)</i>, 2022.
+                <u>Venkatachalam, Shanmuga</u>, Prabhu Vellaisamy, Santha Bhasuthkar and John Paul Shen. <a href="https://arxiv.org/pdf/2205.07410.pdf">"TNN7: A Custom Macro Suite for Implementing Highly Optimized Designs of Neuromorphic TNNs"</a>. <i>Accepted to 2022 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)</i>, 2022.
+                •   Venkatachalam, Shanmuga, Vijay S. Vivekanand, Rajkumar Kubendran. "Frame of Events: A Low-latency Resource-efficient Approach for Stereo Depth Maps." Submitted to ICARA 2023.
             </li>
             <li>
                 <u>Harideep Nair</u>, Prabhu Vellaisamy, Santha Bhasuthkar and John Paul Shen. "Custom Macro Cells for Design Optimization of Direct CMOS Implementations of Neuromorphic TNNs". <i>Design Automation Conference (DAC) Work-In-Progress Poster</i>, 2022.
             </li>
             <li>
-                Shanmuga Venkatachalam, <u>Harideep Nair</u>, Ming Zeng, Cathy Shunwen Tan, Ole J. Mengshoel, and John Paul Shen. <a href="https://www.frontiersin.org/articles/10.3389/fdata.2022.879389/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Big_Data&id=879389">"SemNet: Learning Semantic Attributes for Human Activity Recognition with Deep Belief Networks"</a>. <i>Frontiers in Big Data</i>, 2022, doi: 10.3389/fdata.2022.879389.
-            </li>
-            <li>
-                <u>Harideep Nair</u>, John Paul Shen and James E. Smith. <a href="https://ieeexplore.ieee.org/document/9516717">"A Microarchitecture Implementation Framework for Online Learning with Temporal Neural Networks"</a>. <i>2021 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)</i>, 2021, pp. 266-271, doi: 10.1109/ISVLSI51109.2021.00056.
-            </li>
-            <li>
-                Shreyas Chaudhari, <u>Harideep Nair</u>, Jos&eacute M.F. Moura and John Paul Shen. <a href="https://ieeexplore.ieee.org/document/9414882">"Unsupervised Clustering of Time Series Signals using Neuromorphic Energy-Efficient Temporal Neural Networks"</a>. <i>ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</i>, 2021, pp. 7873-7877, doi: 10.1109/ICASSP39728.2021.9414882.
-            </li>
-            <li>
-                <u>Harideep Nair</u>, Cathy Tan, Ming Zeng, Ole J. Mengshoel, and John Paul Shen. <a href="https://dl.acm.org/doi/abs/10.1145/3341162.3345600">"AttriNet: Learning mid-level features for human activity recognition with deep belief networks"</a>. In: <i>Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers. ACM, 2019</i>.
-            </li>
-            <li>
-                Raj Kumar Choudhary, Newton Singh, <u>Harideep Nair</u>, Rishabh Rawat and Virendra Singh. <a href="https://ieeexplore.ieee.org/abstract/document/8988675">"Freeflow Core: Enhancing Performance of In-order Cores with Energy Efficiency"</a>. In <i>37th IEEE International Conference on Computer Design (ICCD) , Abu Dhabi, UAE, Nov 17-20, 2019</i>.
-            </li>
-            <li>
-                "Building a Silicon Neocortex in CMOS", National Institute of Standards and Technology, <a href="https://www.nist.gov/pml/nanoscale-device-characterization-division/alternative-computing-group">Alternative Computing Group</a>, December 2020 [Invited Talk].
+                <u>Venkatachalam, Shanmuga</u>, Harideep Nair, Ming Zeng, Cathy Shunwen Tan, Ole J. Mengshoel, and John Paul Shen. <a href="https://www.frontiersin.org/articles/10.3389/fdata.2022.879389/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Big_Data&id=879389">"SemNet: Learning Semantic Attributes for Human Activity Recognition with Deep Belief Networks"</a>. <i>Frontiers in Big Data</i>, 2022, doi: 10.3389/fdata.2022.879389.
             </li>
         </ul>
     </div>
