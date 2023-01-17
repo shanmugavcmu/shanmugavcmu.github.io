@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Shanmuga V Portfolio</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -30,6 +30,9 @@
             <li>
                 <a href="#education">Education</a>
             </li>
+            <li>
+                <a href="#pubs">Publications</a>
+            </li>
             <!-- <li>
                 <a href="#honors">Honors and Awards</a>
             </li> -->
@@ -45,9 +48,7 @@
             <li>
                 <a href="#skills">Skills</a>
             </li>
-            <li>
-                <a href="#pubs">Publications</a>
-            </li>
+            
             <li>
                 <!-- <a href="#extra">Extra-Curriculars</a> -->
             </li>
@@ -62,7 +63,7 @@
         <div id="lead-content">
             <h1>Shanmuga Venkatachalam</h1>
             <h2>Research Interests: Machine/Deep Learning, Computer Architecture, Neuromorphic Computing </h2>
-            <!--<a href="#" class="btn-rounded-white">Download CV</a>-->
+            <!-- <a href="#" class="btn-rounded-white">Resume</a> -->
         </div>
         <!-- End #lead-content -->
 
@@ -119,6 +120,27 @@
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
+
+    <div id="pubs" class="optional-section">
+    <h2 class="heading">Publications</h2>
+
+    <div class="optional-section-block">
+        <ul>
+            <li>
+                <u>Venkatachalam, Shanmuga</u>, Vijay S. Vivekanand, Rajkumar Kubendran. "Frame of Events: A Low-latency Resource-efficient Approach for Stereo Depth Maps". <i>Accepted at International Conference on Automation, Robotics and Applications (ICARA)</i>, 2023.
+            </li>
+            <li>
+                Vivekanand Vijay S., Shahin Hashemkhani, <u>Shanmuga Venkatachalam</u>, Rajkumar Kubendran. “Robot Locomotion Control using Central Pattern Generator with Non-linear Bio-mimetic Neurons”. <i>Accepted by International Conference on Automation, Robotics and Applications (ICARA)</i>, 2023.
+            </li>
+            <li>
+                <u>Venkatachalam, Shanmuga</u>, Harideep Nair, Ming Zeng, Cathy Shunwen Tan, Ole J. Mengshoel, and John Paul Shen. <a href="https://www.frontiersin.org/articles/10.3389/fdata.2022.879389/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Big_Data&id=879389">"SemNet: Learning Semantic Attributes for Human Activity Recognition with Deep Belief Networks"</a>. <i>Frontiers in Big Data</i>, 2022, doi: 10.3389/fdata.2022.879389, PMID: 36111178.
+            </li>
+        </ul>
+    </div>
+    <!-- End .optional-section-block -->
+
+  </div>
+  <!-- End .optional-section -->
 
     <!-- <div id="honors" class="optional-section">
     <h2 class="heading">Honors and Awards</h2>
@@ -177,19 +199,26 @@
             <li>
                 Selected (<b>one of only two students from IIT Bombay</b>) for semester exchange program at National University of Singapore.
             </li>
-            <!--<li>
+            <li>
                 Finished <b>seven Teaching Assistantships</b> - six at CMU (led 4 of them as the head TA) and one at IIT Bombay.
             </li>-->
-        </ul>
-    </div>
+        <!-- </ul> -->
+    <!-- </div> -->
     <!-- End .optional-section-block -->
 
-    </div>
-    <!-- End .optional-section --> -->
+    <!-- </div> -->
+    <!-- End .optional-section -->
 
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
+            <!-- <div data-date="Aug 2021 – Present">
+                <h3>University of Pittsburgh, PA.</h3>
+                <h4>Graduate Student Researcher</h4>
+                <p style="text-align:justify;">
+                    Build Spiking Neural Networks and neuron models (LIF, Izikevich, NeuroDyn) to simulate Neuromodulation. Perform Neuronal Network experiments on Opal Kelly FPGA through Xilinx Vivado.
+                </p>
+            </div> -->
             <div data-date="Jun 2021 – Aug 2021">
                 <h3>University of Pittsburgh, PA.</h3>
                 <h4>Pre-Doctoral Fellow</h4>
@@ -244,7 +273,7 @@
                     <div class="project-info">
                         <h3>Event-based TNNs for gesture recognition, Neuromorphic Computer Architecture</h3>
                         <p style="text-align:justify;">
-                            Devised multiple encoding schemes to feed the event-based DVS data into the custom TNN architecture. Implemented spike-time encoding algorithm using multiple bit levels of quantization on NMNIST dataset. Built an adapted 2D point cloud encoding of events to create patterns on the spatial and temporal waveform of events.
+                            Devised multiple encoding schemes to feed the event-based DVS data into the custom Temporal Neural Network (TNN) architecture. Implemented spike-time encoding algorithm using multiple bit levels of quantization on NMNIST dataset. Built an adapted 2D point cloud encoding of events to create patterns on the spatial and temporal waveform of events.
                         </p>
                         <!-- <a href="https://github.com/SiddharthMehtaRajendra/pythons">View Project</a> -->
                     </div>
@@ -516,26 +545,7 @@
 
     <!-- End #skills -->
 
-    <div id="pubs" class="optional-section">
-    <h2 class="heading">Publications</h2>
-
-    <div class="optional-section-block">
-        <ul>
-            <li>
-                <u>Venkatachalam, Shanmuga</u>, Vijay S. Vivekanand, Rajkumar Kubendran. "Frame of Events: A Low-latency Resource-efficient Approach for Stereo Depth Maps."</a>. <i>Submitted to International Conference on Automation, Robotics and Applications (ICARA)</i>, 2023.
-            </li>
-            <li>
-                Vivekanand Vijay S., Shahin Hashemkhani, <u>Shanmuga Venkatachalam</u>, Rajkumar Kubendran. “Robot Locomotion Control using Central Pattern Generator with Non-linear Bio-mimetic Neurons”. <i>Accepted by International Conference on Automation, Robotics and Applications (ICARA)</i>, 2023.
-            </li>
-            <li>
-                <u>Venkatachalam, Shanmuga</u>, Harideep Nair, Ming Zeng, Cathy Shunwen Tan, Ole J. Mengshoel, and John Paul Shen. <a href="https://www.frontiersin.org/articles/10.3389/fdata.2022.879389/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Big_Data&id=879389">"SemNet: Learning Semantic Attributes for Human Activity Recognition with Deep Belief Networks"</a>. <i>Frontiers in Big Data</i>, 2022, doi: 10.3389/fdata.2022.879389, PMID: 36111178.
-            </li>
-        </ul>
-    </div>
-    <!-- End .optional-section-block -->
-
-  </div>
-  <!-- End .optional-section -->
+    
 
   <!-- <div id="extra" class="optional-section">
   <h2 class="heading">Extra-Curriculars</h2>
@@ -568,7 +578,7 @@
   </div> -->
   <!-- End .optional-section-block -->
 
-  </div>
+  <!-- </div> -->
   <!-- End .optional-section -->
 
     <div id="contact">
